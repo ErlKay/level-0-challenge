@@ -1,6 +1,6 @@
 function convert(time) {
-    var hours = Math.floor(time / 60);
-    var minutes = time % 60;
-    return hours + " : " + minutes;
+    var hr = Math.floor(time / 60);
+    var min = time % 60;
+    console.log(hr + ' hour' + " , " + min + ' minutes');
 }
-console.log(convert(71));
+convert(71);
