@@ -7,6 +7,6 @@ function common(str1, str2) {
         }
       }
     }
-    return sameAlph;
+    console.log(sameAlph);
   }
-  console.log(common('house', 'computers'));
+  common('house', 'computers');
